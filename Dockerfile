@@ -1,5 +1,3 @@
-Dockerfile:
--------------
 FROM maven AS build
 COPY ./src /usr/src/app/src
 COPY pom.xml /usr/src/app
